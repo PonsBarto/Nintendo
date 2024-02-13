@@ -1,0 +1,221 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(/img/fonso.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nintendo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carcasa {
+  width: 20em;
+  height: 30em;
+  margin: 2em;
+
+  border-radius: 5% 5% 15% 5%;
+  background-color: purple;
+}
+
+.logo {
+  width: 50%;
+  height: 4%;
+  background-image: url(/img/logogame.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 15%;
+  margin-left: 25%;
+}
+
+.borde {
+  position: relative;
+  width: 16em;
+  height: 12em;
+  border-radius: 5% 5% 15% 5%;
+  left: 6%;
+  margin-top: 2em;
+  background-color: black;
+
+  display: flex;
+}
+
+.led {
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 100%;
+  margin-top: 29%;
+  margin-left: 6%;
+  background-color: brown;
+}
+
+.pantalla {
+  width: 70%;
+  height: 90%;
+  border-radius: 5% 5% 5% 5%;
+  margin-top: 4%;
+  margin-left: 5%;
+  background-color: black;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cruz {
+  width: 23%;
+  height: 16%;
+  margin-top: 5%;
+  margin-left: 10%;
+  border-radius: 100%;
+}
+
+#arriba {
+  width: 1.2em;
+  height: 4.5em;
+  margin-left: 36%;
+  background-color: black;
+}
+
+#abajo {
+  width: 4.5em;
+  height: 1.2em;
+  margin-top: -60%;
+  margin-left: 0%;
+  background-color: black;
+}
+
+.boton_AB {
+  width: 25%;
+  height: 17%;
+  margin-top: -24%;
+  margin-left: 62%;
+}
+
+#boton_A {
+  width: 50%;
+  height: 50%;
+  margin-top: -20%;
+  margin-left: 62%;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+}
+
+#boton_B {
+  width: 50%;
+  height: 50%;
+  margin-top: 20%;
+  margin-left: 2%;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+}
+
+.letraA {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 25%;
+  margin-left: 35%;
+}
+
+.letraB {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 25%;
+  margin-left: 35%;
+}
+
+.marcha {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 15%;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+#onoff {
+  width: 25%;
+  height: 17%;
+  border-radius: 35%;
+  margin-top: 10%;
+  transform: rotate(-25deg);
+  background-color: black;
+}
+
+.on {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 50%;
+  margin-left: -100%;
+  transform: rotate(25deg);
+}
+
+#reset {
+  width: 25%;
+  height: 17%;
+  margin-top: 10%;
+  margin-left: 10%;
+  border-radius: 35%;
+  background-color: black;
+  transform: rotate(-25deg);
+}
+
+.re {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 65%;
+  margin-left: -50%;
+  transform: rotate(25deg);
+}
+
+.sonido {
+  height: 8em;
+  width: 2em;
+  margin-left: 90%;
+  margin-top: -50%;
+}
+
+.mas {
+  height: 1.2em;
+  width: 1.2em;
+  margin-left: 25%;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.positivo {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.menos {
+  height: 1.2em;
+  width: 1.2em;
+  margin-left: 25%;
+  margin-top: 190%;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.negativo {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
